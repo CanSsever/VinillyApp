@@ -1,0 +1,16 @@
+.DS_Store
+**/xcuserdata/
+*.xcuserstate
+DerivedData/
+VinillyApp/vinilly_offline_backup*
+
+# Local database preparation / audit scripts
+audit_vinilly_cover_coverage.py
+build_name_cover_lookup.py
+db.py
+discogs_fallback_enrich.py
+enrich_vinilly_metadata.py
+finalize_vinilly_genres_v6.py
+get_pic.py
+normalize_vinilly_genres.py
+retry.py
